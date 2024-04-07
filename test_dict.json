@@ -1,0 +1,21 @@
+{
+  "infection": {
+    "name": "infection",
+    "attribute": "compartment",
+    "initial_state": "susceptible",
+    "triggering_state": "infected",
+    "final_state": "infected",
+    "prob": 0.2,
+    "mode": "neighbor"
+  },
+  "recovery": {
+    "name": "recovery",
+    "attribute": "compartment",
+    "initial_state": "infected",
+    "triggering_state": null,
+    "final_state": "removed",
+    "prob": 0.5,
+    "mode": "rate"
+  }
+}
+

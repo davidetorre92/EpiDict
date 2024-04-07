@@ -1,0 +1,9 @@
+# Pycache and binaries
+__pycache__/
+
+# Output files
+*.pdf
+*.png
+*.graphml
+*.pickle
+*.dat
